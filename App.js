@@ -12,4 +12,22 @@ const coffees = [
     { name: "Inventore", image: "images/coffee7.jpg" },
     { name: "Veritatis", image: "images/coffee8.jpg" },
     { name: "Accusantium", image: "images/coffee9.jpg" },
-]
+];
+
+const MostrarCoffee = () => {
+
+    let output = ""
+    .coffees.forEach(
+        ({ name, image}) =>
+        (output += ` 
+            <div class="card">
+                <img class="card--avatar" src=${image} />
+                <h1 class="card--title">${name}</h1>
+                <a class="card--link" href='#'>Taste</a>
+            </div>
+            `)
+    )
+    container.innerHTML = output
+}
+
+document.addEventListener("DOMContentLoaded", MostrarCoffee)
