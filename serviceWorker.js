@@ -44,6 +44,22 @@ self.addEventListener("install", installEvent => {
     )
 })
 
+/*
+Aquí usamos el evento fetch para recuperar nuestros datos. El callback nos da acceso a fetchEvent. 
+Luego le adjuntamos respondWith() para evitar la respuesta predeterminada del navegador. 
+En su lugar devuelve una promesa, ya que la acción de recuperación puede tardar un tiempo en completarse.
+
+Y una vez listo el caché, aplicamos el método caches.match(fetchEvent.request). 
+Este verificará si algo en el caché coincide con fetchEvent.request. Por cierto, 
+fetchEvent.request es solo nuestro arreglo de recursos.
+*/
+
+/*
+Ahora, nuestros recursos pueden ser almacenados en caché y recuperados por el service worker, 
+lo que aumenta bastante el tiempo de carga de nuestras imágenes.
+
+Y lo más importante, hace que nuestra aplicación esté disponible en modo fuera de línea.
+*/
 self.addEventListener("fetch", fetchEvent => {
 
     fetchEvent.responseWith(
