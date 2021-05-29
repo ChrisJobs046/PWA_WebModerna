@@ -1,0 +1,22 @@
+{
+  "name": "web_pwa",
+  "version": "1.0.0",
+  "description": "Pag Web con caracteristicas modernas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisJobs046/PWA_WebModerna.git"
+  },
+  "author": "Chris Alexander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisJobs046/PWA_WebModerna/issues"
+  },
+  "homepage": "https://github.com/ChrisJobs046/PWA_WebModerna#readme",
+  "dependencies": {
+    "gitignore-command": "^0.3.2"
+  }
+}
