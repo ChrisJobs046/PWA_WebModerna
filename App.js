@@ -27,7 +27,7 @@ const MostrarCoffee = () => {
             </div>
             `)
     )
-    container.innerHTML = output
+    container.innerHTML = output;
 }
 
-document.addEventListener("DOMContentLoaded", MostrarCoffee)
+document.addEventListener("DOMContentLoaded", MostrarCoffee);
