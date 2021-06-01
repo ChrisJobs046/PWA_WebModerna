@@ -30,11 +30,13 @@ nav{
 .ul{
     list-style: none;
     display: flex;
+    align-items: center;
 }
 
 li{
 
     margin-right: 1rem;
+    float: left;
 }
 
 h1{

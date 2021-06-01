@@ -23,7 +23,7 @@ const MostrarCoffee = () => {
             <div class="card">
                 <img class="card--avatar" src=${image} />
                 <h1 class="card--title">${name}</h1>
-                <a class="card--link" href='#'>Taste</a>
+                <button class="card--link" href='#'>Ver</button>
             </div>
             `)
     )
