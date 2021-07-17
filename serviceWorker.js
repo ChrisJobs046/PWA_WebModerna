@@ -6,6 +6,9 @@ const assets = [
 
     "/",
     "/Index.html",
+    "/pages/About.html",
+    "/pages/Blog.html",
+    "/pages/Contact.html",
     "/Style.css",
     "/App.js",
     "/images/coffee1.jpg",

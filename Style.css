@@ -25,6 +25,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .ul{
@@ -37,6 +38,19 @@ li{
 
     margin-right: 1rem;
     float: left;
+    padding: 8px;
+    list-style: none;
+}
+
+li a{
+    display: block;
+    color: rgb(241, 1, 1);
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    color: rgb(7, 3, 3);
 }
 
 h1{
